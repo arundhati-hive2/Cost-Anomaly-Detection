@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Real invoices and rate cards must never be committed
+*.xlsx
+*.xls
+*.csv
+!sample_data/sample_invoices.xlsx
+private_config.py
+checker/config_private.py
+
+# OS and editor
+.DS_Store
+.vscode/
+.idea/
